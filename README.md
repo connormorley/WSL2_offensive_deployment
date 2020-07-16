@@ -12,7 +12,7 @@ The paper below outlines my research in detail with explanations as to the mecha
 # Scripts
 full_script.ps1           - A clearly outlined script in order to perform WSL2 persistence deployment in Windows 10 OS 
 
-resident_file_script.ps1  - An adaptation of the full script. This version of the full script has been trimmed and reconstrcuted to be below 1KB. This means when stored on a system (if you write to disk) it is stored as a resident file, this means the contents are stored entirelty in the MFT and not an a memory address. Can make analysis if you delete post execuition more difficult
+resident_file_script.ps1  - An adaptation of the full script. This version of the full script has been trimmed and reconstrcuted to be below 1KB. This means when stored on a system (if you write to disk) it is stored as a resident file, this means the contents are stored entirelty in the MFT and not at a memory address. Can make analysis if you delete post execuition more difficult
 
 # Full Paper
 https://drive.google.com/file/d/1LTk3nf3RLOwrfli7uAGFZe_tNw5yfZ9h/view?usp=sharing
